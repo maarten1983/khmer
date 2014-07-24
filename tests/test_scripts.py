@@ -113,6 +113,7 @@ def test_filter_abund_1():
     args = [n_counting_ht, n_infile, '-o' 'outfile']
     utils.runscript(script, args, in_dir)
 
+
 def test_filter_abund_2():
     infile = utils.get_temp_filename('test.fa')
     in_dir = os.path.dirname(infile)
